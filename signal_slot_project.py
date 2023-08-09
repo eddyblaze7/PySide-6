@@ -61,7 +61,8 @@ class widget(QWidget):
     def slide_counter(self,data):
         self.slider.setMinimum(1)
         self.slider.setMaximum(100)
-        
+        self.counter = data
+        self.label.setText(f"Counter: {self.counter}")
         self.lineEdit.setText(f" {data}")
         #self.counter += 1
 

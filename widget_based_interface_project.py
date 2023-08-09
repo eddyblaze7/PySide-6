@@ -36,7 +36,7 @@ class MainWindow(QMainWindow):
         self.line1 = QLineEdit()
         self.line2 = QLineEdit()
 
-        #layout = QGridLayout()
+        #layout = QGridLayout()``
         layout1 = QVBoxLayout()
         layout2 = QHBoxLayout()
         layout3 = QHBoxLayout()
